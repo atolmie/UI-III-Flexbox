@@ -198,13 +198,21 @@ header .logo {
 .middle-content .topLeft-content {
 	display:flex;
 	justify-content:flex-start;
+	flex-wrap: wrap;
+    width: 50%;
 }
 
 .topRight-content {
 	display:flex;
 	justify-content:flex-end ;
+	flex-wrap: wrap;
+    width: 50%;
 }
 
 .button {
+	display: block;
+	width: 30%;
 	border: 1px solid black;
+	text-align: center;
+	
 }
